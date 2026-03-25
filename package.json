@@ -1,0 +1,21 @@
+{
+  "name": "@latinfo/engine",
+  "version": "0.1.0",
+  "description": "Binary lookup, inverted-index search, and MPHF engine for Latin American business registries",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^3.2.4"
+  }
+}
